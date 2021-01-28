@@ -3,10 +3,20 @@
     "version": "1.0.0",
     "description": "Amplify JavaScript Example",
     "dependencies": {
-        "aws-amplify": "latest"
+        "aws-amplify": "latest",
+        "leaflet": "^1.7.1"
     },
     "devDependencies": {
-        "copy-webpack-plugin": "^6.1.0",
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "^6.4.1",
+        "css-loader": "^5.0.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^4.5.1",
+        "style-loader": "^2.0.0",
+        "stylus": "^0.54.8",
+        "stylus-loader": "^4.3.3",
         "webpack": "^4.17.1",
         "webpack-cli": "^3.1.0",
         "webpack-dev-server": "^3.1.5"
