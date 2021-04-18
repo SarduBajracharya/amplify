@@ -4,6 +4,7 @@
     "description": "Amplify JavaScript Example",
     "dependencies": {
         "aws-amplify": "latest",
+        "esri-leaflet": "^3.0.1",
         "leaflet": "^1.7.1"
     },
     "devDependencies": {
@@ -23,6 +24,7 @@
     },
     "scripts": {
         "start": "webpack && webpack-dev-server --mode development",
-        "build": "webpack"
+        "build": "webpack",
+        "build:watch": "webpack --watch"
     }
 }
