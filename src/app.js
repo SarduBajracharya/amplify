@@ -56,6 +56,7 @@ function bindPopups(map, overlay, markerLayer) {
 }
 
 function main() {
+  // Run the code
   const map = createMap()
   const { overlay, markerLayer } = addLayers(map);
   bindPopups(map, overlay, markerLayer);
